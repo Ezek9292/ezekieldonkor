@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ezekiel Donkor - Software Engineer Portfolio">
+    <title>Ezekiel Donkor | Software Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">Ezekiel<span>.</span></a>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Ezekiel Donkor</h1>
+                <h2 class="title">Backend Developer</h2>
+                <p class="description">Backend developer crafting scalable APIs and robust server-side solutions. Proficient in Node.js, Express, Python, FastAPI, MongoDB, and PostgreSQL. I transform complex problems into clean, efficient code and thrive in collaborative, fast-paced environments.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Ezek9292" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mr-donkor-ezekiel" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/ezesly1" target="_blank" aria-label="X"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:ezekdonkor@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="docs/own concepts-0228.jpg" alt="Ezekiel Donkor" class="profile-image">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Backend Developer & Problem Solver</h3>
+                    <p>I'm Ezekiel, a results-driven Backend Developer with a passion for designing, building, and maintaining scalable server-side applications. I specialize in Python and FastAPI, and I'm proficient in building RESTful APIs, integrating third-party services, and managing databases.</p>
+                    <p>With experience in Node.js, Express.js, MongoDB, and PostgreSQL, I understand backend architecture, authentication systems, and API performance optimization. I'm passionate about collaborating on innovative, data-driven projects and solving complex problems through efficient, clean code. I combine technical expertise with strong communication and teamwork skills to deliver robust backend solutions.</p>
+                    <div class="soft-skills">
+                        <div class="soft-skill-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Strong Communication</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Creative Problem-Solving</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-search"></i>
+                            <span>Attention to Detail & Accuracy</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Time Management</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Adaptability & Continuous Learning</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>Effective Teamwork & Collaboration</span>
+                        </div>
+                    </div>
+                    <a href="docs/Ezekiel Donkor(Backend).docx" class="btn btn-primary" download><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section (Experience + Education) -->
+    <section id="journey" class="journey">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            <div class="journey-tabs">
+                <button class="tab-btn active" data-tab="experience">Experience</button>
+                <button class="tab-btn" data-tab="education">Education</button>
+            </div>
+            <div class="journey-content">
+                <div class="timeline-panel active" id="experience-panel">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">11/2025 – 12/2025</div>
+                            <div class="timeline-content">
+                                <div class="timeline-icon"><i class="fas fa-server"></i></div>
+                                <h3>Backend Developer (Intern)</h3>
+                                <h4>Amalitech Ghana</h4>
+                                <p class="timeline-description" data-full="Collaborated in a 3-member development team to design and build a fully functional Library Management System. Working with Node.js (Express) and MongoDB to build secure RESTful APIs for user authentication, book management, and borrowing workflows. Integrated backend and frontend services and managed state across different pages. Used Git & GitHub for source control, collaborating through feature branches, pull requests, and code reviews. Participated in daily standups, sprint planning, and Agile development activities. Applied best practices in API validation (Joi), security middleware, and error handling.">Built Library Management System using Node.js, Express, and MongoDB with team. <span class="read-more-link">Read more</span></p>
+                                <div class="tech-tags">
+                                    <span>Node.js</span>
+                                    <span>Express</span>
+                                    <span>MongoDB</span>
+                                    <span>RESTful APIs</span>
+                                    <span>Git & GitHub</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">10/2025 – 11/2025</div>
+                            <div class="timeline-content">
+                                <div class="timeline-icon"><i class="fas fa-chalkboard-user"></i></div>
+                                <h3>Assistant Coding Instructor (Intern)</h3>
+                                <h4>Dodoo Coding Club</h4>
+                                <p class="timeline-description" data-full="Assisted in teaching young learners foundational programming concepts using HTML, CSS, JavaScript, and Python. Supported lesson planning and coding exercises that introduce students to web development and problem-solving. Guided students through hands-on projects, helping them understand core coding principles like variables, loops, and functions. Provided one-on-one mentorship to reinforce learning and encourage creativity through practical coding challenges. Collaborated with senior instructors to design an engaging and supportive learning environment.">Taught programming fundamentals to young learners with mentorship. <span class="read-more-link">Read more</span></p>
+                                <div class="tech-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>Python</span>
+                                    <span>Mentoring</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">02/2026 – 03/2026</div>
+                            <div class="timeline-content">
+                                <div class="timeline-icon"><i class="fas fa-server"></i></div>
+                                <h3>Backend Developer (Contract)</h3>
+                                <h4>Geovision Services</h4>
+                                <p>Developed backend solutions and APIs for geospatial data management and location-based services.</p>
+                                <div class="tech-tags">
+                                    <span>Backend Development</span>
+                                    <span>APIs</span>
+                                    <span>Geospatial Data</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">03/2021 – 08/2023</div>
+                            <div class="timeline-content">
+                                <div class="timeline-icon"><i class="fas fa-warehouse"></i></div>
+                                <h3>Assistant Warehouse Supervisor</h3>
+                                <h4>Speedaf Logistics Company</h4>
+                                <p class="timeline-description" data-full="Supervised and coordinated a team of 10 operators to optimize workflows, ensure compliance with standards, and maintain consistent productivity. Supported the supervisor in preparing accurate and timely monthly reports. Implemented an innovative solution that significantly reduced missing parcels and improved operational efficiency. Consistently monitored and verified parcel receipts at designated sites to ensure accuracy, accountability, and timely delivery.">Supervised team of 10 operators and optimized warehouse workflows. <span class="read-more-link">Read more</span></p>
+                                <div class="tech-tags">
+                                    <span>Team Leadership</span>
+                                    <span>Process Optimization</span>
+                                    <span>Reporting</span>
+                                    <span>Problem Solving</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-panel" id="education-panel">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">11/2025</div>
+                            <div class="timeline-content">
+                                <div class="timeline-icon"><i class="fas fa-brain"></i></div>
+                                <h3>Backend Developer, FastAPI (Python)</h3>
+                                <h4>MEST Africa</h4>
+                                <p>Intensive training in backend development using FastAPI, building robust APIs and working with databases, authentication, and deployment.</p>
+                                <div class="tech-tags">
+                                    <span>Python</span>
+                                    <span>FastAPI</span>
+                                    <span>API Design</span>
+                                    <span>Database Integration</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">11/2025 – 03/2026</div>
+                            <div class="timeline-content">
+                                <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+                                <h3>Backend Developer Training</h3>
+                                <h4>Axia Africa (Online)</h4>
+                                <p>Comprehensive backend development training covering Node.js, Express, MongoDB, RESTful API design, and best practices in server-side development.</p>
+                                <div class="tech-tags">
+                                    <span>Node.js</span>
+                                    <span>Express</span>
+                                    <span>MongoDB</span>
+                                    <span>RESTful APIs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">05/2019</div>
+                            <div class="timeline-content">
+                                <div class="timeline-icon"><i class="fas fa-university"></i></div>
+                                <h3>Bachelor of Commerce, Marketing</h3>
+                                <h4>University of Cape Coast</h4>
+                                <p>Studied marketing principles, business strategy, and commerce fundamentals at Cape Coast.</p>
+                                <div class="tech-tags">
+                                    <span>Marketing</span>
+                                    <span>Business Strategy</span>
+                                    <span>Commerce</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">09/2025</div>
+                            <div class="timeline-content">
+                                <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+                                <h3>Frontend Developer Training</h3>
+                                <h4>Axia Africa (Online)</h4>
+                                <p>Comprehensive frontend development training covering HTML, CSS, JavaScript, React, and responsive design principles.</p>
+                                <div class="tech-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>React</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image" style="background-image: url('docs/eventpro.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>EventPro - Event Management Platform</h3>
+                        <p class="project-description" data-full="Led a cross-functional team as Team Lead in developing EventPro, a comprehensive event management platform. Architected and built the robust backend using Express.js (Node.js) with MongoDB database, ensuring secure user authentication, efficient event management, and seamless API integration with the frontend. The platform enables users to create, manage, and participate in events with real-time updates and collaborative features.">Led a team building EventPro, a comprehensive event management platform. <span class="read-more-link">Read more</span></p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>RESTful APIs</span>
+                            <span>Team Leadership</span>
+                            <span>Full-Stack Collaboration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rocksun1983/EventPro" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://tonythedev01.github.io/EventPro-Frontend/pages/sign-in.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="backend">
+                    <div class="project-image" style="background-image: url('docs/library_management system.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>Library Management System</h3>
+                        <p class="project-description" data-full="Collaborated with a talented team at Amalitech Ghana to design and develop a fully functional Library Management System. Built a secure and scalable backend using Express.js and Node.js, integrated with MongoDB for efficient data management. Implemented core features including user authentication, comprehensive book management with CRUD operations, and sophisticated borrowing workflows. Leveraged Git and GitHub for seamless team collaboration, participated in Agile development practices, and applied industry best practices in API validation, security middleware, and comprehensive error handling.">Built a Library Management System at Amalitech with user authentication, book management, and borrowing workflows. <span class="read-more-link">Read more</span></p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>RESTful APIs</span>
+                            <span>Joi Validation</span>
+                            <span>Git & GitHub</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/classic792/Library-management-system" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image" style="background-image: url('docs/image.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>Spotlight - Recruiter Showcase Platform</h3>
+                        <p class="project-description" data-full="Developed backend services for Spotlight, a platform empowering users to showcase their skills and projects to potential recruiters. Engineered scalable REST APIs using Node.js and Express.js, enabling seamless user profile management, project uploads, and recruiter interactions. Implemented CI/CD pipelines using GitHub Actions for continuous integration and deployment, ensuring code quality and faster iteration cycles. Collaborated with the Fortress-Team to deliver a production-ready platform deployed on Vercel.">Backend developer for Spotlight, a platform connecting talent with recruiters. <span class="read-more-link">Read more</span></p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>REST APIs</span>
+                            <span>GitHub Actions</span>
+                            <span>CI/CD</span>
+                            <span>Vercel</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Fortress-Team/backend" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://spotlight-flax.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="backend">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Event Management API</h3>
+                        <p class="project-description" data-full="Developed a scalable Event Management API with FastAPI and Python, featuring comprehensive event CRUD operations and registration management endpoints. Integrated MongoDB for robust data persistence, implemented validation layers for data integrity, and built a clean, modular API design following RESTful principles for optimal backend performance and maintainability.">Scalable Event Management API with FastAPI, Python, and MongoDB. <span class="read-more-link">Read more</span></p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>MongoDB</span>
+                            <span>RESTful APIs</span>
+                            <span>Validation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Ezek9292/event_project_APLI" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="backend">
+                    <div class="project-image" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Advertisement Management API</h3>
+                        <p class="project-description" data-full="Led a collaborative team at MEST Africa to build a functional FastAPI-based e-commerce API for advertisement management. Directed the project architecture, implementation of user authentication, product CRUD operations, and database integration. Applied best practices in API design, security, and code organization. Ensured effective team collaboration through Git and GitHub workflows for seamless version control and code reviews.">Led a team at MEST Africa building a FastAPI e-commerce API. <span class="read-more-link">Read more</span></p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>CRUD Operations</span>
+                            <span>GitHub</span>
+                            <span>Team Leadership</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/INNOTELL/advertisement_management_api" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image" style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Book Search & Reading List</h3>
+                        <p class="project-description" data-full="Built a Book Search application using FastAPI and Python, integrating the Google Books API with MongoDB for data storage, and developed a simple frontend using HTML, CSS, and JavaScript.">Book Search app integrating Google Books API with MongoDB. <span class="read-more-link">Read more</span></p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>Google Books API</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Ezek9292/Book-Search-Reading-List-API" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag"><i class="fab fa-html5"></i> HTML</div>
+                        <div class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</div>
+                        <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="skill-tag"><i class="fab fa-python"></i> Python</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag"><i class="fas fa-bolt"></i> FastAPI</div>
+                        <div class="skill-tag"><i class="fab fa-node-js"></i> Express.js</div>
+                        <div class="skill-tag"><i class="fab fa-react"></i> React</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Runtime</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag"><i class="fab fa-node-js"></i> Node.js</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</div>
+                        <div class="skill-tag"><i class="fas fa-database"></i> PostgreSQL</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Other</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag"><i class="fab fa-git-alt"></i> Git</div>
+                        <div class="skill-tag"><i class="fab fa-github"></i> GitHub</div>
+                        <div class="skill-tag"><i class="fas fa-paint-brush"></i> Photoshop</div>
+                        <div class="skill-tag"><i class="fas fa-mobile-alt"></i> Responsive Design</div>
+                        <div class="skill-tag"><i class="fas fa-circle-notch"></i> CI/CD</div>
+                        <div class="skill-tag"><i class="fab fa-aws"></i> AWS</div>
+                        <div class="skill-tag"><i class="fas fa-server"></i> EC2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:ezekdonkor@gmail.com">ezekdonkor@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+233542309292">+233 54 230 9292</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Accra, Ghana</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/Ezek9292" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mr-donkor-ezekiel" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/ezesly1" target="_blank" aria-label="X"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    <p class="form-status" id="formStatus"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#hero" class="logo">Ezekiel<span>.</span></a>
+                </div>
+                <p>&copy; 2026 Ezekiel Donkor. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
